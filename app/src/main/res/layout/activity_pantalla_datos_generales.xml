@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pantalla5_6_7_8"
+    tools:context=".PantallaDatosGenerales">
+
+    <Button
+        android:id="@+id/btnRDatosGenerales"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/etTelefonoFijo"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="@dimen/altura_regreso_datosgenerales"
+        android:background="@drawable/btn7_1" />
+
+    <EditText
+        android:id="@+id/etTelefonoFijo"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/etCelular"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="-6dp"
+        android:hint="  Teléfono Fijo" />
+
+    <EditText
+        android:id="@+id/etCelular"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/etDireccion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="-8dp"
+        android:hint="  Teléfono Celular" />
+
+    <EditText
+        android:id="@+id/etDireccion"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/etRH"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="-5dp"
+        android:hint="  Dirección" />
+
+    <EditText
+        android:id="@+id/etRH"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/etEPS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="-7dp"
+        android:hint="RH" />
+
+    <EditText
+        android:id="@+id/etEPS"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/etPoliza"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="-8dp"
+        android:hint="  EPS" />
+
+    <EditText
+        android:id="@+id/etPoliza"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/btnModificarDG"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="28dp"
+        android:hint="  Póliza de salud" />
+
+    <Button
+        android:id="@+id/btnModificarDG"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="95dp"
+        android:background="@drawable/btn7_2" />
+
+</RelativeLayout>

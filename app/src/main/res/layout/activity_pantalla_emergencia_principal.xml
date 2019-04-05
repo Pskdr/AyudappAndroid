@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pantalla4"
+    tools:context=".PantallaEmergenciaPrincipal">
+
+    <Button
+        android:id="@+id/btnEmergenciaPrincipal"
+        android:layout_width="@dimen/tamaño_boton_alerta_ancho"
+        android:layout_height="@dimen/tamaño_boton_alerta_alto"
+        android:layout_above="@+id/btnAyudaAOtrosPrincipal"
+        android:layout_marginRight="@dimen/derecha_boton_alerta"
+        android:layout_marginLeft="@dimen/izquierda_boton_alerta"
+        android:layout_marginVertical="@dimen/altura_boton_alerta"
+        android:background="@drawable/btn4_1" />
+
+    <Button
+        android:id="@+id/btnAyudaAOtrosPrincipal"
+        android:layout_width="275dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/btnMisContactosPrincipal"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/altura_boton_ayudaaotros"
+        android:background="@drawable/btn4_2" />
+
+    <Button
+        android:id="@+id/btnMiPerfilPrincipal"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn4_3"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:id="@+id/btnMisContactosPrincipal"
+        android:layout_width="133dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn4_4" />
+
+    <Button
+        android:id="@+id/btnCentroSaludPrincipal"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn4_5"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>

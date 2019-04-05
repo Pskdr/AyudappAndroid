@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantallaMiPerfil"
+    android:background="@drawable/pantalla5_6_7_8">
+
+    <Button
+        android:id="@+id/btnRMiPerfil"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/btn5_1" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/btnDatosGenerales"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn5_2" />
+
+    <Button
+        android:id="@+id/btnModificar"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/btnInformacionAdicional"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn5_3" />
+    <Button
+        android:id="@+id/btnDatosGenerales"
+        android:layout_width="158dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn5_4" />
+    <Button
+        android:id="@+id/btnInformacionAdicional"
+        android:layout_width="160dp"
+        android:layout_height="72dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn5_5" />
+
+
+</RelativeLayout>
