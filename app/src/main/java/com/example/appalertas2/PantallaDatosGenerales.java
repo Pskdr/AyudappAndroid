@@ -31,6 +31,7 @@ public class PantallaDatosGenerales extends AppCompatActivity {
         });
 
     }
+	//Prueba
     private void conectar(){
         btnModificarDG = findViewById(R.id.btnModificarDG);
         btnRDatosGenerales = findViewById(R.id.btnRDatosGenerales);
