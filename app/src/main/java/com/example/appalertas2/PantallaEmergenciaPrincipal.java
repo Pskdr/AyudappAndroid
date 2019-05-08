@@ -22,7 +22,7 @@ public class PantallaEmergenciaPrincipal extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
+        //Comentario prueba
         btnEmergenciaPrincipal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
